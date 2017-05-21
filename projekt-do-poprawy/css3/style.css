@@ -1,37 +1,36 @@
-body{
+body {
     margin: 0;
 }
 
-nav#menu{
+nav#menu {
     text-align: center;
     background: #222;
 }
 
-nav#menu > ul{
+nav#menu>ul {
     margin: 0;
 }
 
-nav#menu > ul > li.menu-item {
+nav#menu>ul>li.menu-item {
     display: inline-block;
     padding: 25px;
     list-style: none;
-    
 }
-nav#menu > ul > li.menu-item a {
+
+nav#menu>ul>li.menu-item a {
     text-decoration: none;
     color: #999;
-        
 }
 
 header#header {
     position: relative;
     text-align: center;
-    
 }
+
 header#header img {
     width: 100%;
-    
 }
+
 header#header h1#main-header-text {
     position: absolute;
     top: 50%;
@@ -43,18 +42,37 @@ header#header h1#main-header-text {
     text-transform: uppercase;
     color: #fff;
 }
+
 section#about {
     margin: :30px 0;
     padding: 0 50px;
-    
 }
+
 section#about h2#about-header {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    
 }
 
 section#about p.about-content {
     text-align: center;
+}
+
+footer#contact {
+    padding: 30px 50px;
+    background: #222;
+}
+footer#contact h2#contact-header {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+footer#contact address#contact-content {
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+}
+footer#contact addres#contact-content a:hover {
+    color: #999;
 }
