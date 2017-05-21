@@ -20,6 +20,26 @@ nav#menu > ul > li.menu-item {
 nav#menu > ul > li.menu-item a {
     text-decoration: none;
     color: #999;
+        
+}
+
+header#header {
+    position: relative;
+    text-align: center;
     
+}
+header#header img {
+    width: 100%;
     
+}
+header#header h1#main-header-text {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    color: #fff;
 }
